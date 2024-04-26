@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b1c2d3;
+    margin: 0;
+    padding: 0;
+  }
+
+h1{
+
+    color: #405c79;
+    margin-top: 30px;
+
+
+}
+
+
+
+/* form */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #a9bbc1; /* Azul pastel */
+  }
+
+  th, td {
+    border: 2px solid #c2d7e0; /* Azul pastel */
+    padding: 8px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #c6d8e7; /* Azul pastel */
+  }
+
+  tr:nth-child(even) {
+    background-color: #F0F8FF; /* Azul claro pastel */
+  }
+
+  tr:nth-child(odd) {
+    background-color: #9eb3c0; /* Azul medio pastel */
+  }
+
+/* form */
+
+
+  form {
+    background-color: #c4d3df; /* Color pastel */
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333333;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555555;
+  }
+  
+  input[type="text"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #ffffff; /* Color de fondo blanco */
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 150px;
+  }
+  
+  .select-custom {
+    position: relative;
+  }
+  
+  .select-custom::after {
+    content: '\25BC';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #555555;
+  }
+  
+  input[type="submit"] {
+    background-color: #759dad; /* Color pastel */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #4682b4; /* Color pastel */
+  }
+  
+  button {
+    background-color: #5d7fa4; /* Color de fondo del botón */
+    color: #ffffff; /* Color del texto del botón */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+  }
+
+  button:hover {
+    background-color: #a1bed5; /* Color de fondo del botón al pasar el mouse */
+  }
